@@ -1,15 +1,15 @@
-package org.example.services;
+package com.zonief.services;
 
+import com.zonief.beans.MhObject;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import org.example.beans.MhObject;
 
 public class DataParser {
 
-  public Map<String,MhObject> getMhObjects(){
+  public Map<String, MhObject> getMhObjects(){
 
     BufferedReader reader;
     Map<String,MhObject> mhObjects = new HashMap<>();

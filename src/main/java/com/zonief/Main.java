@@ -1,8 +1,8 @@
-package org.example;
+package com.zonief;
 
 import java.util.ArrayList;
-import org.example.beans.MhObject;
-import org.example.services.DataParser;
+import com.zonief.beans.MhObject;
+import com.zonief.services.DataParser;
 
 public class Main {
 

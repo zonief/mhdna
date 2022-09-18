@@ -1,4 +1,4 @@
-package org.example.beans;
+package com.zonief.beans;
 
 import java.util.Map;
 import lombok.Builder;
